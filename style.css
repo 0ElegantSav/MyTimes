@@ -1,7 +1,20 @@
-header{
+.header{
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
 }
+
+.title{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+
+/*TRY TO MOVE TO RIGHT SIDE
+.nav{
+  justify-content: flex-end;
+}
+*/
