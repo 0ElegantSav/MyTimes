@@ -15,14 +15,31 @@
 }
 */
 
+.maincontainer{
+  border: 1px solid black;
+}
+.article{
+    border: 1px solid black;
+}
+
+.left .column{
+  border: 1px solid black;
+}
 .column .large{
   width:630px;
+}
+
+.middle .column{
+    border: 1px solid black;
 }
 
 .column .medium{
   width:300px;
 }
 
+.right .column{
+    border: 1px solid black;
+}
 .column .small{
   width:240px;
 }
