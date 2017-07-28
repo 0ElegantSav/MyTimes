@@ -1,0 +1,17 @@
+.header-container{
+  display:flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  display: flex;
+  color: MediumAquamarine;
+}
+
+.nav a{
+  color:black;
+}
