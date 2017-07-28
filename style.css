@@ -3,13 +3,9 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
 }
 
 .title{
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
   color: MediumAquamarine;
 }
 
@@ -18,3 +14,15 @@
   justify-content: flex-end;
 }
 */
+
+.column .large{
+  width:630px;
+}
+
+.column .medium{
+  width:300px;
+}
+
+.column .small{
+  width:240px;
+}
