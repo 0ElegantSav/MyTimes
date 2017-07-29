@@ -21,11 +21,28 @@
 .border{
   border:1px solid black; /*Adds border*/
 }
-.articles{
-  display: flex;
-  justify-content: space-around;
+.articles {
+  display: flex; /*makes content horizontal.*/
 }
 
+ /*Adding background images*/
+.mother-tuna{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.earth-spins{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.cameras-erase{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+.cats{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+/*Sizing article columns*/
 .column.large {
   width: 630px;
 }
