@@ -25,8 +25,23 @@
   display: flex; /*makes content horizontal.*/
 }
 
+/*Display text format with background images*/
+.image-title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+/*Display text format for articles*/
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
  /*Adding background images*/
 .mother-tuna{
+  font-size: 40px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 }
 
