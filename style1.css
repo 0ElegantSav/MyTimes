@@ -1,7 +1,8 @@
+/*TOP*/
 .header-container{
   display:flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; /*NAV TO RIGHT*/
+  align-items: center; /*NAV CENTER*/
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -14,4 +15,25 @@
 
 .nav a{
   color:black;
+}
+
+/*ARTICLES*/
+.border{
+  border:1px solid black; /*Adds border*/
+}
+.articles{
+  display: flex;
+  justify-content: space-around;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
