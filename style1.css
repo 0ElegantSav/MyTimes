@@ -14,7 +14,7 @@
   color: MediumAquamarine;
 }
 
-.nav a{
+.links span a{
   color:black;
 }
 
@@ -102,5 +102,22 @@ p{
    margin:0;
    padding: 11px 20px;
    border-bottom:1px solid black;
+}
 
+.bottom {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .bottom h1{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
  }
