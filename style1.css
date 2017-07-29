@@ -23,6 +23,7 @@
 }
 .articles {
   display: flex; /*makes content horizontal.*/
+  justify-content: space-around;
 }
 
 /*Display text format with background images*/
@@ -31,6 +32,7 @@
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 /*Display text format for articles*/
@@ -43,18 +45,24 @@ p{
 .mother-tuna{
   font-size: 40px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width:630px;
+  height:300px;
+  text-align: left;
 }
 
 .earth-spins{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
 }
 
 .cameras-erase{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
 }
 
 .cats{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
 }
 
 /*Sizing article columns*/
@@ -68,4 +76,8 @@ p{
 
 .column.small {
   width: 240px;
+}
+
+.square{
+  display: inline-flex;
 }
