@@ -78,6 +78,7 @@ p{
 
 .column.small {
   width: 240px;
+  flex-direction: column;
 }
 
 .square{
@@ -85,3 +86,21 @@ p{
   width:300px;
   height: 100%;
 }
+
+/*Right Side adjusting*/
+.news-bites h3{
+  font-size: 16px;
+  font-weight: bold;
+ }
+
+ .news-bites li{
+   display: block;
+   background-color: WhiteSmoke;
+   font-family: Verdana;
+   font-size: 12px;
+   color: DimGray;
+   margin:0;
+   padding: 11px 20px;
+   border-bottom:1px solid black;
+
+ }
